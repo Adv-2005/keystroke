@@ -1,0 +1,16 @@
+[project]
+schema_version = "1.0.0"
+random_seed = 20261008
+
+[sequence]
+pause_threshold_ms = 1000.0
+
+[scoring]
+enrollment_samples = 5
+keystrokes_per_enrollment_sample = 50
+window_length = 50
+window_stride = 10
+smoothing_alpha = 0.35
+target_far = 0.01
+warning_consecutive_windows = 2
+reauthentication_consecutive_windows = 3

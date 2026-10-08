@@ -1,0 +1,41 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/coverage/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Sensitive and generated research data
+/data/raw/
+/data/processed/
+/data/participants/
+/artifacts/
+/checkpoints/
+/models/
+/experiments/output/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.joblib
+*.pt
+*.pth
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

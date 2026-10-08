@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "session_id": "session_synthetic_001",
+  "events": [
+    {
+      "schema_version": "1.0.0",
+      "session_id": "session_synthetic_001",
+      "code": "KeyA",
+      "event_type": "keydown",
+      "timestamp_ms": 100.0,
+      "repeat": false
+    },
+    {
+      "schema_version": "1.0.0",
+      "session_id": "session_synthetic_001",
+      "code": "KeyB",
+      "event_type": "keydown",
+      "timestamp_ms": 140.0,
+      "repeat": false
+    },
+    {
+      "schema_version": "1.0.0",
+      "session_id": "session_synthetic_001",
+      "code": "KeyA",
+      "event_type": "keyup",
+      "timestamp_ms": 160.0,
+      "repeat": false
+    },
+    {
+      "schema_version": "1.0.0",
+      "session_id": "session_synthetic_001",
+      "code": "KeyB",
+      "event_type": "keyup",
+      "timestamp_ms": 210.0,
+      "repeat": false
+    },
+    {
+      "schema_version": "1.0.0",
+      "session_id": "session_synthetic_001",
+      "code": "Backspace",
+      "event_type": "keydown",
+      "timestamp_ms": 1400.0,
+      "repeat": false
+    },
+    {
+      "schema_version": "1.0.0",
+      "session_id": "session_synthetic_001",
+      "code": "Backspace",
+      "event_type": "keyup",
+      "timestamp_ms": 1470.0,
+      "repeat": false
+    }
+  ]
+}
